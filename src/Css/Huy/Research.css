@@ -1,0 +1,47 @@
+.hover-zoom {
+    transition: transform 0.3s ease;
+    
+}
+.clickhover:hover::after {
+    content: "Click to view more about this image";
+    position: absolute;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 12px;
+    z-index: 1000;
+    top: 60%;
+}
+.hover-zoom:hover {
+    transform: scale(1.5);
+}
+.Strengths-Huy{
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.list-unstyled {
+    column-count: 3;
+    column-gap: 30px;
+  }
+  .list-unstyled li {
+    padding: 10px;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+.list-unstyled li:hover{
+    background-color: rgb(232, 204, 152);
+    color: black;
+}
+  
+@media (max-width: 767.9px) {
+    .Strengths-Huy{
+        border-right: none;
+    }
+    .list-unstyled {
+        column-count: 2;
+      }
+}
+@media (max-width: 576px){
+    .list-unstyled {
+        column-count: 1;
+      }
+}

@@ -1,0 +1,111 @@
+.footer-dat {
+    background-color: rgb(88, 85, 85);
+    padding-top: 0;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.footer-dat img {
+    width: 100px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.footer-dat-info {
+    color: white;
+    font-size: 12pt;
+    text-align: center;
+    display: inline-block;
+    /* float: center; */
+    width: 300px;
+    height: auto;
+}
+
+.footer-dat-contact {
+    border-left: 1px solid white;
+}
+
+.footer-dat-contact a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.footer-dat-contact a:hover {
+    text-decoration: underline;
+}
+
+
+.footer-dat-timer {
+    border-left: 1px solid white;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}
+
+.footer-dat-navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+.footer-dat-navbar a:hover{
+    background-color:rgb(124, 124, 124);
+    border-radius: 3px;
+}
+
+.footer-dat-logo .footer-dat-logo_school img{
+    width: 130px;
+}
+
+.footer-dat-logo_school{
+    margin-left: 50px;
+}
+
+.footer-dat-logo_team, .footer-dat-logo_school{
+    display: inline-block;
+}
+
+@media (max-width: 1875px) {
+    .footer-dat-logo_school{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 970px) {
+    .footer-dat-logo_school{
+        margin-left: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-dat-logo_school{
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer-dat-timer,
+    .footer-dat-contact {
+        border-left: none;
+    }
+
+    .footer-dat-logo {
+        margin-bottom: 30px;
+    }
+
+    .footer-dat-timer iframe {
+        margin-top: 30px;
+    }
+}

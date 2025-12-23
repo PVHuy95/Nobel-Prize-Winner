@@ -1,0 +1,114 @@
+.contact-content-dat-network{
+    text-align: left;
+    display: inline-block;
+}
+
+.contact-content-dat-contact{
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.contact-content-dat-contact a{
+    text-decoration: none;
+    color: rgb(0, 221, 255);
+    font-weight: normal;
+    transition: all 0.5s; 
+}
+
+.contact-content-dat-map{
+    display: inline-block;
+}
+
+.contact-content-dat-about p{
+    font-size: 32px;
+    text-align: justify;
+}
+
+.contact-content-dat-about{
+    height: auto;
+}
+
+.network img{
+    width: 50px;
+    display: inline-block;
+}
+.network{
+    margin-bottom: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 10px;
+}
+
+.overlay-text {
+     display: inline-block;
+     margin-left: 20px;
+     color: white;
+}
+
+
+/* hover */
+.network:hover .overlay-text {
+    left: 60px; 
+}
+
+.contact-content-dat-contact a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+@media (max-width: 1180px) {
+    .overlay-text{
+        font-size: 12pt;
+    }
+}
+
+@media (max-width: 1030px) {
+    .overlay-text{
+        font-size: 10pt;
+    }
+}
+
+@media (max-width: 991px) {
+    .contact-content-dat-about p{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 910px) {
+    .overlay-text{
+        font-size: 8pt;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact-map{
+        margin-top: 30px;
+    }
+
+    .overlay-text{
+        font-size: 14pt;
+    }
+
+    .contact-content-dat-about p{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-content-dat-about p{
+        font-size: 20px;
+    }    
+}
+
+@media (max-width: 543px) {
+    .contact-content-dat-contact{
+        display: block;
+    }
+}
+
+@media (max-width: 350px) {
+    .contact-content-dat-about p{
+        font-size: 18px;
+    }    
+}

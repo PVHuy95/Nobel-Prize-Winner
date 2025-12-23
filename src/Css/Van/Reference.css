@@ -1,0 +1,142 @@
+.slide_marie {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.slide_marie img {
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+    padding: 2px;
+}
+
+.slide_marie img:hover {
+    width: 25%;
+}
+
+.Van_sheet_refer {
+    background-color: rgb(21, 21, 21);
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 30px;
+    /* bop ben trong */
+    margin-top: 50px 50px;
+    /*day ben ngoai*/
+    margin-bottom: 25px;
+    border-radius: 30px;
+}
+
+/*css div duongvien all trang*/
+.Van_duongvien {
+    border: none;
+    border-radius: 10px;
+    padding: 50px;
+    background-color: rgb(21, 21, 21);
+}
+
+.Van_refer_sach {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Van_refer_book {
+    width: 100%;
+
+    text-align: left;
+
+}
+
+.Van_refer_row {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.Van_Didyouknow_sach {
+    width: 55%;
+    height: 55%;
+    border: 3px solid rgb(233, 212, 107);
+    padding: 3%;
+    border-radius: 3px;
+    text-align: center;
+    /* margin-top: 20px; */
+}
+.Van_refer_book img{
+    align-items: center;
+}
+
+@media (max-width: 992px) {
+    .Van_refer_book {
+        margin: 3px;
+    }
+}
+@media (max-width: 568px) {
+    .Van_refer_book {
+       margin: 0 auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .Van_refer_sach col {
+        width: 100%;
+        margin: 30%;
+    }
+
+    
+}
+
+.Van-quote-mark {
+    font-size: 2em;
+    font-family: Georgia, serif;
+    color: black;
+    position: relative;
+}
+
+.Van-quote-mark::before {
+    content: open-quote;
+    position: absolute;
+    left: -7.85em;
+}
+
+.Van-quote-mark::after {
+    content: close-quote;
+    position: absolute;
+    right: -0.000005em;
+}
+
+.Van-khoitron-quot {
+
+    height: auto;
+    border-radius: 50%;
+    /* Tạo hình tròn */
+    box-shadow: 15px 10px 25px 8px white;
+    /* overflow: hidden;  Ẩn phần thừa của hình ảnh */
+
+
+}
+
+.Van-khoitron-quot img {
+    border-radius: 30%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    /* Đảm bảo hình ảnh phủ kín toàn bộ diện tích */
+}
+
+@media (max-width: 768px) {
+    .Van-quote-mark {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .Van-quote-mark::before {
+        left: -5.85em;
+    }
+}

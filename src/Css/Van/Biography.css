@@ -1,0 +1,136 @@
+
+.Van_khoibio_bio {
+    border: none;
+    border-radius: 10px;
+    padding: 4%;
+    background-color: rgb(21, 21, 21);
+}
+
+.custom-quote {
+    
+    background-color:black;
+    border-left: 3px solid white;
+    border-right: 7px solid white;
+    border-top: 1px solid white;
+    border-bottom: 5px solid white;
+    text-align: center;
+    color:white;
+    border-radius: 1000px;
+    font-size: 2rem;
+    box-shadow: 15px 8px 15px 10px white;
+    margin-bottom: 2%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 #F2F2CE;
+    text-align: center;
+    font-family: arial;
+    background-color:  #cecbc8;
+    border-radius: 3%;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    border-radius: 0% 0% 10% 10%;
+    background-color: #fffdc3;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+}
+.card button:hover {
+    opacity: 0.7;
+}
+
+.card img {
+    width: 130%;
+    animation: slide-up 0.9s ease-in-out;
+    transform: translateY(100%);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    border-radius: 50% 20%;
+}
+
+@keyframes slide-up {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.Van-chuhoa p::first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    color:white;
+    font-family: 'Pacifico', cursive;
+
+}
+
+
+.Van-Bioone-clickme {
+    background-color: black;
+    text-align: center;
+    font-size: 1.75rem;
+}
+
+.VanBio_custom-link:hover{
+    background-color: #e0e0e0;
+}
+
+.VanBio_custom-link {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.VanBio_colum{
+    flex: 1;
+    padding: 10px;
+}
+
+.VanBio_expanded-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+.footer_Van{
+    font-size: 3rem;
+}
+@media (max-width: 568px) {
+    .custom-quote  {
+       font-size: 1.3rem;
+    }
+    .footer_Van{
+        font-size: 2rem;
+    }
+    .sizeDT_Van{
+        padding: 1% 10% 0% 10%;
+    }
+}
+@media (max-width: 768px){
+    .custom-quote  {
+        font-size: 1.4rem;
+     }
+     .sizeDT_Van{
+        padding: 1% 10% 0% 10%;
+    }
+}
+@media (max-width: 968px){
+     .sizeDT_Van{
+        padding: 1% 10% 0% 10%;
+    }
+}
+@media (max-width: 1168px){
+    .sizeDT_Van{
+       padding: 1% 10% 0% 10%;
+   }
+}
+@media (max-width: 1450px){
+    .sizeDT_Van{
+       padding: 1% 10% 0% 10%;
+   }
+}

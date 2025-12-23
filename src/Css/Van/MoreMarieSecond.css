@@ -1,0 +1,25 @@
+
+.theEnd {
+   text-align: center;
+}
+.VanBio_custom-link {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.VanBio_custom-link:hover {
+    background-color: #e0e0e0;
+}
+
+.VanBio_expanded-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.VanBio_colum {
+    flex: 1;
+    padding: 10px;
+} 

@@ -1,0 +1,121 @@
+.Site_Map_Hung img {
+    width: 45px;
+    height: auto;
+    margin-left: -18px;
+    position: fixed;
+    bottom: 10%;
+    z-index: 1000;
+    filter: drop-shadow(0 0 5px rgb(180, 180, 180));
+}
+
+.Site_Map_Hung img:hover {
+    cursor: pointer;
+    animation: pulse512 1.5s infinite;
+}
+
+@keyframes pulse512 {
+    0% {
+        filter: drop-shadow(0 0 0px #FFFFFF);
+    }
+
+    70% {
+        filter: drop-shadow(0 0 10px rgba(218, 103, 68, 0));
+    }
+
+    100% {
+        filter: drop-shadow(0 0 0px rgba(218, 103, 68, 0));
+    }
+}
+
+#popupDiv {
+    max-width: auto;
+    max-height: auto;
+    position: fixed;
+    top: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1.5%;
+    z-index: 1000;
+    display: none;
+    background-image: url('../../Img/Hung/background-den.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+        /* ánh sáng mờ */
+        0 0 10px rgba(255, 255, 255, 0.6),
+        /* ánh sáng xa hơn */
+        0 0 15px rgba(255, 255, 255, 0.4);
+    /* ánh sáng rộng hơn */
+}
+
+.hidden_Hung {
+    display: none;
+}
+
+.button_close_Hung {
+    border: none;
+}
+
+.site_map_text a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1rem;
+    background-color: #b0b0b06c;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px 1px rgba(199, 199, 199, 0.485);
+}
+
+.site_map_text a:hover {
+    background-color: #ffffff;
+    border: thin solid #ffffff;
+    color: black;
+}
+
+.Tieude_Hung {
+    text-shadow: 2px -3px 3px black;
+    font-size: 3vw;
+    color: #ffffffe9;
+}
+
+.paddingleft_Hung {
+    padding-left: 8%;
+}
+
+.paddingleft_Hung a {
+    background-color: rgba(30, 30, 30, 0.615);
+    border-radius: 0px 5px 0px 5px;
+    color: white;
+    font-weight: 500;
+    font-size: 1vw;
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .site_map_text a {
+        font-size: 0.8rem;
+    }
+
+    #popupDiv {
+        padding-left: 4%;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 768px) {
+    .site_map_text a {
+        font-size: 0.7rem;
+    }
+}
+@media (min-width: 0px) and (max-width: 400px) {
+    .site_map_text a {
+        font-size: 0.5rem;
+    }
+
+    #popupDiv {
+        padding-left: 4%;
+        top: 5%;
+        left: 0%;
+        transform: translateX(0%);
+    }
+}

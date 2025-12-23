@@ -1,0 +1,64 @@
+
+  /**lan3**/
+
+   .timeline-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #f7f6f6;
+   /* padding-top: 50px; /*khoang trong phia tren*/
+  } 
+   .timeline{
+    display: flex;
+    justify-content: space-between; /*can deu cac item*/
+     align-items: center;
+    position: relative;
+    width: 100%;
+  } 
+  
+  .timeline::before {
+   content: '';
+   position: absolute;
+   top: 50%;
+   left: 0;
+   right: 0;
+   height: 2px;
+   background-color: #f7f6f6;
+   z-index: 1;
+
+}
+/*tao hien thi nam ngang IntimateDetail.jsx*/   
+   .timeline-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    color: aliceblue;
+  } 
+  /*buton de len duong thang*/
+   .timeline-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(234, 139, 15);
+    z-index: 2; /*de dam bao dot va buto nam tren duong thang*/
+  }
+   
+  .dot {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 10px; /*de tao khoang cach giua cham va button*/
+    position: relative;
+   top: -15px; /* Position the dot above the button*/
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+ 
+  
+  

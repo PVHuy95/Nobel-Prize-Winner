@@ -1,0 +1,73 @@
+/*gpt slde hinh chay tu trai qua phai roi xuat hien text*/
+.Van_slide_lefttoright{
+    position: relative;
+    width: auto;
+    height: 300px;
+    overflow: hidden;
+    padding: 10% ;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1); /* Thêm bóng cho container */
+}
+
+/*them text sau khi slide left to right*/
+.animated-img {
+    position: absolute;
+    top: 50%;
+    left: -200px;
+    width: auto;
+    height: 300px;
+    animation: moveRight 5s linear forwards;
+    transform: translateY(-50%);
+}
+/*Keyframes để di chuyển hình ảnh*/
+@keyframes moveRight{
+    0% {
+        left: -200px;
+        opacity: 1;
+    }
+    80% {
+        left: calc(100% - 100px);
+        opacity: 1;
+    }
+    100% {
+        left: 100%;
+        opacity: 0;
+    }
+}
+/* Vị trí cố định của text: position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); giúp text xuất hiện ở giữa div sau khi hình ảnh biến mất.*/
+.thank-you-text {
+    opacity: 0; /*ban dau bi che*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color:#ffffff;
+    animation: appearText 3s ease-in forwards;
+    animation-delay: 5s; /* Đợi sau khi hình ảnh chạy xong, text hien ra */
+}
+/*Keyframes appearText giúp text dần dần hiện ra bằng cách tăng độ mờ từ 0 lên 1.*/
+@keyframes appearText {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/*thay đoi kich thuoc tren man hinh nho*/
+@media (max-width: 776px) {
+    .animated-img {
+        width:  auto;
+        height: 30%;
+    }
+}
+@media (max-width: 476px) {
+    .animated-img {
+        width: 100px;
+        height:auto;
+    }
+
+    .thank-you-text {
+        font-size: 18px;
+    }
+}
