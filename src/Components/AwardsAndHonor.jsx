@@ -14,16 +14,16 @@ const Awards = () => {
 
     const path = import.meta.env.BASE_URL
     const slideImg = [
-        "/img/Huy/MarieCurie1.png",
-        "/img/Huy/MarieCurie2.png",
-        "/img/Huy/MarieCurie3.png",
-        "/img/Huy/MarieCurie4.png",
-        "/img/Huy/MarieCurie5.png",
-        "/img/Huy/MarieCurie6.png",
-        "/img/Huy/MarieCurie7.png",
-        "/img/Huy/MarieCurie8.png",
-        "/img/Huy/MarieCurie9.png",
-        "/img/Huy/MarieCurie10.png"
+        "img/Huy/MarieCurie1.png",
+        "img/Huy/MarieCurie2.png",
+        "img/Huy/MarieCurie3.png",
+        "img/Huy/MarieCurie4.png",
+        "img/Huy/MarieCurie5.png",
+        "img/Huy/MarieCurie6.png",
+        "img/Huy/MarieCurie7.png",
+        "img/Huy/MarieCurie8.png",
+        "img/Huy/MarieCurie9.png",
+        "img/Huy/MarieCurie10.png"
     ]
     React.useEffect(() => {
         const hash = window.location.hash;
