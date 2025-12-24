@@ -111,7 +111,7 @@ This project is deployed on **GitHub Pages**.
    npm run deploy
    ```
 
-## 📦 Migration from Create React App to Vite
+## 📦 Migration from Create React App to Vite by Huy
 
 This project was originally created with **Create React App** and has been successfully migrated to **Vite** for:
 
