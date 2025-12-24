@@ -4,13 +4,13 @@ import 'react-slideshow-image/dist/styles.css'
 
 const Home = () => {
     const images = [
-        '/img/Dat/slide_img/marie-curie-01.jpg',
-        '/img/Dat/slide_img/marie-curie-02.jpg',
-        '/img/Dat/slide_img/marie-curie-03.jpg',
-        '/img/Dat/slide_img/marie-curie-04.jpg',
-        '/img/Dat/slide_img/marie-curie-05.jpg',
-        '/img/Dat/slide_img/marie-curie-06.jpg',
-        '/img/Dat/slide_img/marie-curie-07.jpg',
+        'img/Dat/slide_img/marie-curie-01.jpg',
+        'img/Dat/slide_img/marie-curie-02.jpg',
+        'img/Dat/slide_img/marie-curie-03.jpg',
+        'img/Dat/slide_img/marie-curie-04.jpg',
+        'img/Dat/slide_img/marie-curie-05.jpg',
+        'img/Dat/slide_img/marie-curie-06.jpg',
+        'img/Dat/slide_img/marie-curie-07.jpg',
       ];
 
       const path = import.meta.env.BASE_URL;
