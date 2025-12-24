@@ -29,7 +29,7 @@ The **"Nobel Prize Winner"** website is a project dedicated to honoring **Marie 
 - **Documents reports**: [https://github.com/PVHuy95/Nobel-Prize-Winner/tree/main/Documents](https://github.com/PVHuy95/Nobel-Prize-Winner/tree/main/Documents)
 - **Data Test**: [https://github.com/PVHuy95/Nobel-Prize-Winner/tree/main/src/Data](https://github.com/PVHuy95/Nobel-Prize-Winner/tree/main/src/Data)
 - **Project demonstration video**: [https://www.youtube.com/watch?v=jXGXXkrxIqo](https://www.youtube.com/watch?v=jXGXXkrxIqo)
-- **Live Website**: [https://PVHuy95.github.io/Nobel-Prize-Winner/](https://PVHuy95.github.io/Nobel-Prize-Winner/)
+- **Live Website**: [https://nobel-prize-winner.onrender.com](https://nobel-prize-winner.onrender.com)
 
 ## 🚀 Run Locally
 
@@ -111,7 +111,7 @@ This project is deployed on **GitHub Pages**.
    npm run deploy
    ```
 
-The site will be live at: [https://PVHuy95.github.io/Nobel-Prize-Winner/](https://PVHuy95.github.io/Nobel-Prize-Winner/)
+The site will be live at: [https://nobel-prize-winner.onrender.com](https://nobel-prize-winner.onrender.com)
 
 ## 📦 Migration from Create React App to Vite
 
