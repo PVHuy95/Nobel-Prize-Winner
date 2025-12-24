@@ -111,8 +111,6 @@ This project is deployed on **GitHub Pages**.
    npm run deploy
    ```
 
-The site will be live at: [https://nobel-prize-winner.onrender.com](https://nobel-prize-winner.onrender.com)
-
 ## 📦 Migration from Create React App to Vite
 
 This project was originally created with **Create React App** and has been successfully migrated to **Vite** for:
