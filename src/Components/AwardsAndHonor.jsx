@@ -73,7 +73,7 @@ const Awards = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-md-6 text-center" data-aos="zoom-in" >
+                    <div className="col-md-6 text-center">
                         <figure>
                             <img src={`${path}${DTB[1].medal}`} className="img-fluid" style={{ border: "5px double white", padding: "10px", borderRadius: "5px", boxShadow: "0 4px 8px #DDDDDD" }} />
                             <figcaption style={{ marginTop: "2%" }}><b>{DTB[1].caption1}</b></figcaption>
